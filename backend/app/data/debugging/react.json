@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Direct State Mutation",
+        "desc": "Fix the bug where state is mutated directly instead of using the setter.",
+        "lang": "javascript",
+        "code": "function Counter() {\n  const [count, setCount] = useState(0);\n  const inc = () => {\n    count = count + 1;\n    setCount(count);\n  };\n}",
+        "id": 1,
+        "skill": "react"
+    },
+    {
+        "title": "Missing Dependency",
+        "desc": "Fix the useEffect so it properly tracks the userId dependency.",
+        "lang": "javascript",
+        "code": "useEffect(() => {\n  fetchData(userId);\n}, []);",
+        "id": 2,
+        "skill": "react"
+    },
+    {
+        "title": "Missing Key Prop",
+        "desc": "Fix the map function to include a unique key for each list item.",
+        "lang": "javascript",
+        "code": "function List({ items }) {\n  return items.map(item => <li>{item.name}</li>);\n}",
+        "id": 3,
+        "skill": "react"
+    }
+]

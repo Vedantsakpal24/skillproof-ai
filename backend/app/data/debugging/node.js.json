@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Double Send",
+        "desc": "Fix the Express route so it doesnt crash with \"Cannot set headers after they are sent\".",
+        "lang": "javascript",
+        "code": "app.get(\"/user\", (req, res) => {\n  if (!req.query.id) res.send(\"No ID\");\n  res.send(\"User ID: \" + req.query.id);\n});",
+        "id": 1,
+        "skill": "node.js"
+    },
+    {
+        "title": "Unhandled Promise",
+        "desc": "Fix the async route to properly catch and pass errors to Express error handler.",
+        "lang": "javascript",
+        "code": "app.get(\"/data\", async (req, res, next) => {\n  const data = await fetchFromDB();\n  res.json(data);\n});",
+        "id": 2,
+        "skill": "node.js"
+    },
+    {
+        "title": "Callback Error Swallowed",
+        "desc": "Fix the fs.readFile callback to properly handle the error parameter.",
+        "lang": "javascript",
+        "code": "fs.readFile(\"config.json\", (err, data) => {\n  console.log(data.toString());\n});",
+        "id": 3,
+        "skill": "node.js"
+    }
+]

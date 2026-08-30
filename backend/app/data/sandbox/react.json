@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Counter Component",
+        "desc": "Create a React component <Counter /> with a button that increments a displayed count.",
+        "lang": "javascript",
+        "code": "import React, { useState } from \"react\";\n\nexport default function Counter() {\n  return <div></div>;\n}",
+        "id": 1,
+        "skill": "react"
+    },
+    {
+        "title": "Fetch Data useEffect",
+        "desc": "Write a component <DataList /> that fetches from /api/data on mount and maps the result to <li>.",
+        "lang": "javascript",
+        "code": "import React, { useState, useEffect } from \"react\";\n\nexport default function DataList() {\n  return <ul></ul>;\n}",
+        "id": 2,
+        "skill": "react"
+    },
+    {
+        "title": "Toggle Visibility",
+        "desc": "Create a <Toggle /> component that shows/hides a <p>Hello</p> when a button is clicked.",
+        "lang": "javascript",
+        "code": "import React, { useState } from \"react\";\n\nexport default function Toggle() {\n  return <div></div>;\n}",
+        "id": 3,
+        "skill": "react"
+    },
+    {
+        "title": "Controlled Input",
+        "desc": "Create a controlled <input> inside a <Form /> component that alerts the value on submit.",
+        "lang": "javascript",
+        "code": "import React, { useState } from \"react\";\n\nexport default function Form() {\n  return <form></form>;\n}",
+        "id": 4,
+        "skill": "react"
+    },
+    {
+        "title": "Context Consumer",
+        "desc": "Consume a ThemeContext and apply the theme string as a className to a div.",
+        "lang": "javascript",
+        "code": "import React, { useContext } from \"react\";\nimport { ThemeContext } from \"./theme\";\n\nexport default function ThemedDiv() {\n  return <div></div>;\n}",
+        "id": 5,
+        "skill": "react"
+    }
+]

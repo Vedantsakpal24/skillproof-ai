@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Basic HTTP Server",
+        "desc": "Create an HTTP server listening on port 3000 that responds with \"Hello World\".",
+        "lang": "javascript",
+        "code": "const http = require(\"http\");\n\n// Create server here\n",
+        "id": 1,
+        "skill": "node.js"
+    },
+    {
+        "title": "Async File Read",
+        "desc": "Write a function readConfig() that uses fs.promises.readFile to read \"config.json\".",
+        "lang": "javascript",
+        "code": "const fs = require(\"fs\").promises;\n\nasync function readConfig() {\n\n}",
+        "id": 2,
+        "skill": "node.js"
+    },
+    {
+        "title": "Express Route",
+        "desc": "Write an Express GET route for /users/:id that returns the id as JSON.",
+        "lang": "javascript",
+        "code": "const express = require(\"express\");\nconst app = express();\n\n// Add route here\n",
+        "id": 3,
+        "skill": "node.js"
+    },
+    {
+        "title": "Event Emitter",
+        "desc": "Create a custom Emitter class extending EventEmitter that emits \"start\" on a trigger method.",
+        "lang": "javascript",
+        "code": "const EventEmitter = require(\"events\");\n\nclass Emitter extends EventEmitter {\n\n}",
+        "id": 4,
+        "skill": "node.js"
+    },
+    {
+        "title": "Crypto Hash",
+        "desc": "Use the crypto module to return a sha256 hash (hex) of a given string.",
+        "lang": "javascript",
+        "code": "const crypto = require(\"crypto\");\n\nfunction hash(str) {\n\n}",
+        "id": 5,
+        "skill": "node.js"
+    }
+]

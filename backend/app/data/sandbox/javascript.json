@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Filter Evens",
+        "desc": "Write a function filterEvens(arr) returning only even numbers from the array.",
+        "lang": "javascript",
+        "code": "function filterEvens(arr) {\n    // Write your code here\n}",
+        "id": 1,
+        "skill": "javascript"
+    },
+    {
+        "title": "Promise Timeout",
+        "desc": "Write a function delay(ms) that returns a Promise resolving after ms milliseconds.",
+        "lang": "javascript",
+        "code": "function delay(ms) {\n\n}",
+        "id": 2,
+        "skill": "javascript"
+    },
+    {
+        "title": "Deep Clone",
+        "desc": "Write a function deepClone(obj) to perform a basic deep clone of a JSON-serializable object.",
+        "lang": "javascript",
+        "code": "function deepClone(obj) {\n\n}",
+        "id": 3,
+        "skill": "javascript"
+    },
+    {
+        "title": "Debounce",
+        "desc": "Implement a basic debounce(fn, delay) function.",
+        "lang": "javascript",
+        "code": "function debounce(fn, delay) {\n\n}",
+        "id": 4,
+        "skill": "javascript"
+    },
+    {
+        "title": "Array Reduce",
+        "desc": "Use reduce to write sumArray(arr) that sums all numbers in an array.",
+        "lang": "javascript",
+        "code": "function sumArray(arr) {\n\n}",
+        "id": 5,
+        "skill": "javascript"
+    }
+]

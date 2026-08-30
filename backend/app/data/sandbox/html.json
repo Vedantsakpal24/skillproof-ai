@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Semantic Structure",
+        "desc": "Write an HTML skeleton with header, nav, main, and footer tags.",
+        "lang": "html",
+        "code": "<!DOCTYPE html>\n<html>\n<body>\n\n</body>\n</html>",
+        "id": 1,
+        "skill": "html"
+    },
+    {
+        "title": "Form Inputs",
+        "desc": "Create a form with a text input for username, password input, and a submit button.",
+        "lang": "html",
+        "code": "<form>\n\n</form>",
+        "id": 2,
+        "skill": "html"
+    },
+    {
+        "title": "Table with Headers",
+        "desc": "Create an HTML table with Name and Age headers, and one row of data.",
+        "lang": "html",
+        "code": "<table>\n\n</table>",
+        "id": 3,
+        "skill": "html"
+    },
+    {
+        "title": "Accessible Image",
+        "desc": "Write an img tag with proper alt text and wrap it in a figure with a figcaption.",
+        "lang": "html",
+        "code": "<!-- Write your HTML here -->\n",
+        "id": 4,
+        "skill": "html"
+    },
+    {
+        "title": "Video Embed",
+        "desc": "Write a video tag with controls and a source pointing to \"video.mp4\".",
+        "lang": "html",
+        "code": "<!-- Write your HTML here -->\n",
+        "id": 5,
+        "skill": "html"
+    }
+]

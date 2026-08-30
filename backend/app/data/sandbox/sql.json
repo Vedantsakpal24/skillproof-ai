@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Select Active Users",
+        "desc": "Write a SQL query to select all users where status is \"active\".",
+        "lang": "sql",
+        "code": "-- Write your SQL query here\nSELECT * FROM users;",
+        "id": 1,
+        "skill": "sql"
+    },
+    {
+        "title": "Join Tables",
+        "desc": "Write a SQL query to JOIN users and orders on user_id.",
+        "lang": "sql",
+        "code": "-- Write your SQL query here\n",
+        "id": 2,
+        "skill": "sql"
+    },
+    {
+        "title": "Count by Group",
+        "desc": "Write a query to count the number of orders per user_id.",
+        "lang": "sql",
+        "code": "-- Write your SQL query here\n",
+        "id": 3,
+        "skill": "sql"
+    },
+    {
+        "title": "Subquery",
+        "desc": "Write a query to find users whose age is greater than the average age.",
+        "lang": "sql",
+        "code": "-- Write your SQL query here\n",
+        "id": 4,
+        "skill": "sql"
+    },
+    {
+        "title": "Update Records",
+        "desc": "Write a query to update the status to \"inactive\" for users last_login < 2023.",
+        "lang": "sql",
+        "code": "-- Write your SQL query here\n",
+        "id": 5,
+        "skill": "sql"
+    }
+]

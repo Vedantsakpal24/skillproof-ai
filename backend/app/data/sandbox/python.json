@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Reverse String",
+        "desc": "Write a function reverse_string(s) that returns the reversed string.",
+        "lang": "python",
+        "code": "def reverse_string(s):\n    # Write your code here\n    pass\n",
+        "id": 1,
+        "skill": "python"
+    },
+    {
+        "title": "Flatten List",
+        "desc": "Write a function flatten(lst) that flattens a nested 2D list into a 1D list.",
+        "lang": "python",
+        "code": "def flatten(lst):\n    pass\n",
+        "id": 2,
+        "skill": "python"
+    },
+    {
+        "title": "Dictionary Merge",
+        "desc": "Write a function merge_dicts(d1, d2) that merges two dictionaries. d2 values should overwrite d1.",
+        "lang": "python",
+        "code": "def merge_dicts(d1, d2):\n    pass\n",
+        "id": 3,
+        "skill": "python"
+    },
+    {
+        "title": "Find Duplicates",
+        "desc": "Write a function find_dups(lst) returning a list of items that appear more than once.",
+        "lang": "python",
+        "code": "def find_dups(lst):\n    pass\n",
+        "id": 4,
+        "skill": "python"
+    },
+    {
+        "title": "Simple OOP",
+        "desc": "Create a class User with an __init__ taking name and a method get_name().",
+        "lang": "python",
+        "code": "class User:\n    pass\n",
+        "id": 5,
+        "skill": "python"
+    }
+]

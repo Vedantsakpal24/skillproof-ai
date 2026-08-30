@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Inefficient Cache",
+        "desc": "Fix the Dockerfile order to cache npm install unless package.json changes.",
+        "lang": "dockerfile",
+        "code": "FROM node:18\nCOPY . .\nRUN npm install\nCMD [\"node\", \"index.js\"]",
+        "id": 1,
+        "skill": "docker"
+    },
+    {
+        "title": "Root User",
+        "desc": "Add an instruction to run the container as a non-root user \"node\".",
+        "lang": "dockerfile",
+        "code": "FROM node:18\nCOPY . /app\nWORKDIR /app\nCMD [\"node\", \"app.js\"]",
+        "id": 2,
+        "skill": "docker"
+    },
+    {
+        "title": "Missing Expose",
+        "desc": "Fix the Dockerfile by documenting that the app listens on port 8080.",
+        "lang": "dockerfile",
+        "code": "FROM nginx:alpine\nCOPY ./html /usr/share/nginx/html",
+        "id": 3,
+        "skill": "docker"
+    }
+]

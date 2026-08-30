@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Basic Dockerfile",
+        "desc": "Write a Dockerfile to use node:18, copy files, run npm install, and start index.js.",
+        "lang": "dockerfile",
+        "code": "FROM node:18\n\n# Add instructions here\n",
+        "id": 1,
+        "skill": "docker"
+    },
+    {
+        "title": "Expose Port",
+        "desc": "Write a Dockerfile instruction to expose port 8080.",
+        "lang": "dockerfile",
+        "code": "# Write your Dockerfile instruction here\n",
+        "id": 2,
+        "skill": "docker"
+    },
+    {
+        "title": "Volume Mount",
+        "desc": "Write the docker run flag to mount local ./data to /app/data in the container.",
+        "lang": "shell",
+        "code": "# Write your docker run command here\ndocker run -d image_name",
+        "id": 3,
+        "skill": "docker"
+    },
+    {
+        "title": "Docker Compose",
+        "desc": "Write a basic docker-compose.yml with a web service and a db service (postgres).",
+        "lang": "yaml",
+        "code": "version: \"3\"\nservices:\n",
+        "id": 4,
+        "skill": "docker"
+    },
+    {
+        "title": "Multi-stage Build",
+        "desc": "Write a multi-stage Dockerfile that builds in a golang image and copies to alpine.",
+        "lang": "dockerfile",
+        "code": "FROM golang:1.20 AS builder\n\nFROM alpine:latest\n",
+        "id": 5,
+        "skill": "docker"
+    }
+]

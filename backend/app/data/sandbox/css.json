@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Flexbox Center",
+        "desc": "Write CSS to perfectly center a child div horizontally and vertically using flexbox.",
+        "lang": "css",
+        "code": ".container {\n  /* Add flexbox rules here */\n}",
+        "id": 1,
+        "skill": "css"
+    },
+    {
+        "title": "CSS Grid",
+        "desc": "Write CSS to create a 3-column grid layout with equal widths.",
+        "lang": "css",
+        "code": ".grid-container {\n  /* Add grid rules here */\n}",
+        "id": 2,
+        "skill": "css"
+    },
+    {
+        "title": "Hover Transition",
+        "desc": "Add a transition rule to scale a button to 1.1 on hover smoothly over 0.3s.",
+        "lang": "css",
+        "code": "button {\n\n}\nbutton:hover {\n\n}",
+        "id": 3,
+        "skill": "css"
+    },
+    {
+        "title": "Media Query",
+        "desc": "Write a media query that changes the background color to blue on screens smaller than 600px.",
+        "lang": "css",
+        "code": "/* Write media query here */\n",
+        "id": 4,
+        "skill": "css"
+    },
+    {
+        "title": "CSS Variables",
+        "desc": "Define a custom property --main-color: red on the :root and apply it to h1.",
+        "lang": "css",
+        "code": ":root {\n\n}\nh1 {\n\n}",
+        "id": 5,
+        "skill": "css"
+    }
+]

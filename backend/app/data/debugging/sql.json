@@ -1,0 +1,26 @@
+[
+    {
+        "title": "NULL Equality Bug",
+        "desc": "Fix the query to correctly select rows where deleted_at is NULL.",
+        "lang": "sql",
+        "code": "SELECT * FROM users WHERE deleted_at = NULL;",
+        "id": 1,
+        "skill": "sql"
+    },
+    {
+        "title": "Ambiguous Column",
+        "desc": "Fix the JOIN query so the id column in the SELECT is not ambiguous.",
+        "lang": "sql",
+        "code": "SELECT id, name, order_date \nFROM users \nJOIN orders ON users.id = orders.user_id;",
+        "id": 2,
+        "skill": "sql"
+    },
+    {
+        "title": "Missing Group By",
+        "desc": "Fix the aggregate query by adding the necessary GROUP BY clause.",
+        "lang": "sql",
+        "code": "SELECT department, COUNT(id) \nFROM employees;",
+        "id": 3,
+        "skill": "sql"
+    }
+]

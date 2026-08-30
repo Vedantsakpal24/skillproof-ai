@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Lost \this Context",
+        "desc": "Fix the bug where \this.name is undefined inside the setTimeout callback.",
+        "lang": "javascript",
+        "code": "const user = {\n  name: \"Alice\",\n  greet() {\n    setTimeout(function() {\n      console.log(this.name);\n    }, 1000);\n  }\n};",
+        "id": 1,
+        "skill": "javascript"
+    },
+    {
+        "title": "Var in Loop",
+        "desc": "Fix the loop so it logs 0, 1, 2 instead of 3, 3, 3.",
+        "lang": "javascript",
+        "code": "for (var i = 0; i < 3; i++) {\n  setTimeout(() => console.log(i), 100);\n}",
+        "id": 2,
+        "skill": "javascript"
+    },
+    {
+        "title": "Off by One",
+        "desc": "Fix the loop bounds so it iterates over all elements without returning undefined.",
+        "lang": "javascript",
+        "code": "function logItems(arr) {\n  for (let i = 0; i <= arr.length; i++) {\n    console.log(arr[i]);\n  }\n}",
+        "id": 3,
+        "skill": "javascript"
+    }
+]

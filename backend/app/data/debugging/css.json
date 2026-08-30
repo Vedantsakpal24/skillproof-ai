@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Specificity Issue",
+        "desc": "Fix the CSS so the button class overrides the generic button tag color.",
+        "lang": "css",
+        "code": "button {\n  color: red !important;\n}\n.btn-primary {\n  color: blue;\n}",
+        "id": 1,
+        "skill": "css"
+    },
+    {
+        "title": "Inline Dimensions",
+        "desc": "Fix the display property so the span respects width and height.",
+        "lang": "css",
+        "code": "span {\n  display: inline;\n  width: 100px;\n  height: 100px;\n}",
+        "id": 2,
+        "skill": "css"
+    },
+    {
+        "title": "Missing Unit",
+        "desc": "Fix the margin property by adding the correct unit.",
+        "lang": "css",
+        "code": ".box {\n  margin: 10 20;\n}",
+        "id": 3,
+        "skill": "css"
+    }
+]

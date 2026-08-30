@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Unclosed Tag",
+        "desc": "Fix the unclosed tag that is breaking the layout.",
+        "lang": "html",
+        "code": "<div>\n  <p>Hello World\n</div>",
+        "id": 1,
+        "skill": "html"
+    },
+    {
+        "title": "Duplicate IDs",
+        "desc": "Fix the duplicate IDs, as IDs must be unique in an HTML document.",
+        "lang": "html",
+        "code": "<button id=\"submit-btn\">Save</button>\n<button id=\"submit-btn\">Cancel</button>",
+        "id": 2,
+        "skill": "html"
+    },
+    {
+        "title": "Form Action",
+        "desc": "Fix the form so it submits via POST to /api/login.",
+        "lang": "html",
+        "code": "<form>\n  <input name=\"user\" />\n  <button type=\"submit\">Login</button>\n</form>",
+        "id": 3,
+        "skill": "html"
+    }
+]

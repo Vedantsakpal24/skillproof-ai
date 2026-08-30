@@ -1,0 +1,366 @@
+[
+    {
+        "id": "Node.js_mcq_0",
+        "skill": "Node.js",
+        "difficulty": "Medium",
+        "question_type": "mcq",
+        "question": "What is the primary architectural advantage of utilizing Node.js in a distributed system?",
+        "options": [
+            "It ensures high availability and horizontal scalability.",
+            "It completely eliminates the need for database backups.",
+            "It prevents all network latency automatically.",
+            "It is the only way to write backend services."
+        ],
+        "correct_option": 0,
+        "explanation": "It provides scalability benefits in distributed architectures."
+    },
+    {
+        "id": "Node.js_mcq_1",
+        "skill": "Node.js",
+        "difficulty": "Hard",
+        "question_type": "mcq",
+        "question": "When optimizing a legacy application, how does Node.js improve overall performance?",
+        "options": [
+            "By caching objects directly in the CPU L1 cache.",
+            "By reducing execution overhead and streamlining data flows.",
+            "By rewriting the operating system kernel.",
+            "It does not improve performance."
+        ],
+        "correct_option": 1,
+        "explanation": "It streamlines execution and data pipelines."
+    },
+    {
+        "id": "Node.js_mcq_2",
+        "skill": "Node.js",
+        "difficulty": "Medium",
+        "question_type": "mcq",
+        "question": "Which of the following is considered a critical anti-pattern when developing with Node.js?",
+        "options": [
+            "Using descriptive variable names.",
+            "Hardcoding sensitive credentials in plaintext.",
+            "Refactoring monolithic code into microservices.",
+            "Writing unit tests."
+        ],
+        "correct_option": 1,
+        "explanation": "Security credentials should never be hardcoded."
+    },
+    {
+        "id": "Node.js_mcq_3",
+        "skill": "Node.js",
+        "difficulty": "Medium",
+        "question_type": "mcq",
+        "question": "How does Node.js manage state or data persistence across independent sessions?",
+        "options": [
+            "It relies on external storage or structured memory caching.",
+            "It writes directly to the motherboard BIOS.",
+            "It uses a localized text file on the user's desktop.",
+            "It forces the user to manually save state."
+        ],
+        "correct_option": 0,
+        "explanation": "State is managed via structured memory or external DBs."
+    },
+    {
+        "id": "Node.js_mcq_4",
+        "skill": "Node.js",
+        "difficulty": "Medium",
+        "question_type": "mcq",
+        "question": "What is the most effective strategy for debugging a complex issue in Node.js?",
+        "options": [
+            "Deploying immediately to production.",
+            "Using breakpoints, stack trace analysis, and profiling tools.",
+            "Deleting the code and starting over.",
+            "Ignoring the error if the application compiles."
+        ],
+        "correct_option": 1,
+        "explanation": "Stack tracing and breakpoints are standard debugging tools."
+    },
+    {
+        "id": "Node.js_mcq_5",
+        "skill": "Node.js",
+        "difficulty": "Easy",
+        "question_type": "mcq",
+        "question": "In a continuous integration (CI) pipeline, what role does Node.js play?",
+        "options": [
+            "It acts as a firewall against DDoS attacks.",
+            "It automates validation, building, or deployment logic.",
+            "It manages the payroll for the engineering team.",
+            "It writes marketing copy."
+        ],
+        "correct_option": 1,
+        "explanation": "It is used for automation and validation in CI/CD."
+    },
+    {
+        "id": "Node.js_mcq_6",
+        "skill": "Node.js",
+        "difficulty": "Medium",
+        "question_type": "mcq",
+        "question": "Which security vulnerability is most commonly mitigated by proper Node.js implementation?",
+        "options": [
+            "Cross-site scripting (XSS) or Injection attacks.",
+            "Too much internal documentation.",
+            "Over-commented source code.",
+            "High employee turnover."
+        ],
+        "correct_option": 0,
+        "explanation": "Proper implementations mitigate injection and XSS."
+    },
+    {
+        "id": "Node.js_mcq_7",
+        "skill": "Node.js",
+        "difficulty": "Hard",
+        "question_type": "mcq",
+        "question": "What is the standard convention for dependency management in Node.js projects?",
+        "options": [
+            "Downloading zip files from forums.",
+            "Using official package managers and version lockfiles.",
+            "Storing dependencies on floppy disks.",
+            "Writing all third-party code from scratch."
+        ],
+        "correct_option": 1,
+        "explanation": "Package managers and lockfiles ensure stability."
+    },
+    {
+        "id": "Node.js_mcq_8",
+        "skill": "Node.js",
+        "difficulty": "Medium",
+        "question_type": "mcq",
+        "question": "When migrating an application to the cloud, how should Node.js be configured?",
+        "options": [
+            "Using stateless, environment-agnostic deployment patterns.",
+            "Hardcoding the local IP address of the developer's laptop.",
+            "Disabling all encryption for faster speeds.",
+            "Deploying via USB drive."
+        ],
+        "correct_option": 0,
+        "explanation": "Stateless configurations are required for cloud scaling."
+    },
+    {
+        "id": "Node.js_mcq_9",
+        "skill": "Node.js",
+        "difficulty": "Easy",
+        "question_type": "mcq",
+        "question": "What is the primary function of the core modules provided by Node.js?",
+        "options": [
+            "To provide low-level abstractions and reusable logic.",
+            "To generate CSS stylesheets.",
+            "To replace the need for an operating system.",
+            "To track user mouse movements."
+        ],
+        "correct_option": 0,
+        "explanation": "Core modules provide foundational abstractions."
+    },
+    {
+        "id": "Node.js_mcq_10",
+        "skill": "Node.js",
+        "difficulty": "Easy",
+        "question_type": "mcq",
+        "question": "How does Node.js handle concurrency or asynchronous operations?",
+        "options": [
+            "It utilizes non-blocking I/O or threading models.",
+            "It blocks the entire CPU until completion.",
+            "It ignores background tasks entirely.",
+            "It requires a manual hardware reboot."
+        ],
+        "correct_option": 0,
+        "explanation": "Non-blocking or threading models handle concurrency."
+    },
+    {
+        "id": "Node.js_mcq_11",
+        "skill": "Node.js",
+        "difficulty": "Easy",
+        "question_type": "mcq",
+        "question": "Which design pattern is most frequently applied when architecting solutions with Node.js?",
+        "options": [
+            "The Singleton or Factory pattern.",
+            "The Waterfall pattern.",
+            "The Spaghetti code pattern.",
+            "The 'Copy-Paste' pattern."
+        ],
+        "correct_option": 0,
+        "explanation": "Standard design patterns ensure maintainability."
+    },
+    {
+        "id": "Node.js_mcq_12",
+        "skill": "Node.js",
+        "difficulty": "Hard",
+        "question_type": "mcq",
+        "question": "What is the best practice for handling exceptions and errors in Node.js?",
+        "options": [
+            "Catching them silently without logging.",
+            "Implementing structured error handling and monitoring.",
+            "Crashing the entire server immediately.",
+            "Displaying the raw stack trace to the end user."
+        ],
+        "correct_option": 1,
+        "explanation": "Structured error handling prevents silent failures."
+    },
+    {
+        "id": "Node.js_mcq_13",
+        "skill": "Node.js",
+        "difficulty": "Medium",
+        "question_type": "mcq",
+        "question": "How does Node.js ensure backward compatibility when upgrading versions?",
+        "options": [
+            "Through semantic versioning and deprecation cycles.",
+            "By breaking all old code intentionally.",
+            "By forcing users to never upgrade.",
+            "It doesn't support versioning."
+        ],
+        "correct_option": 0,
+        "explanation": "Semantic versioning provides safe upgrade paths."
+    },
+    {
+        "id": "Node.js_mcq_14",
+        "skill": "Node.js",
+        "difficulty": "Easy",
+        "question_type": "mcq",
+        "question": "What is the role of unit testing within a Node.js environment?",
+        "options": [
+            "To manually click through the UI.",
+            "To validate individual components in isolation.",
+            "To stress test the production database.",
+            "To write documentation automatically."
+        ],
+        "correct_option": 1,
+        "explanation": "Unit tests validate components in isolation."
+    },
+    {
+        "id": "Node.js_mcq_15",
+        "skill": "Node.js",
+        "difficulty": "Easy",
+        "question_type": "mcq",
+        "question": "When integrating Node.js with external APIs, what is a crucial consideration?",
+        "options": [
+            "Implementing rate limiting and retry logic.",
+            "Sending unlimited requests per second.",
+            "Ignoring authentication headers.",
+            "Assuming the API will never experience downtime."
+        ],
+        "correct_option": 0,
+        "explanation": "Rate limiting and retries ensure resilience."
+    },
+    {
+        "id": "Node.js_mcq_16",
+        "skill": "Node.js",
+        "difficulty": "Hard",
+        "question_type": "mcq",
+        "question": "What mechanism does Node.js use to optimize memory consumption?",
+        "options": [
+            "Garbage collection or manual memory allocation.",
+            "Downloading more RAM from the internet.",
+            "Deleting random files from the hard drive.",
+            "Running on an infinite loop."
+        ],
+        "correct_option": 0,
+        "explanation": "Memory optimization is handled via GC or manual allocation."
+    },
+    {
+        "id": "Node.js_mcq_17",
+        "skill": "Node.js",
+        "difficulty": "Hard",
+        "question_type": "mcq",
+        "question": "How should configuration variables be managed in a Node.js deployment?",
+        "options": [
+            "Through environment variables or secure vaults.",
+            "Hardcoded in the main source file.",
+            "Stored in a public GitHub repository.",
+            "Written on a sticky note."
+        ],
+        "correct_option": 0,
+        "explanation": "Environment variables keep configurations secure."
+    },
+    {
+        "id": "Node.js_mcq_18",
+        "skill": "Node.js",
+        "difficulty": "Hard",
+        "question_type": "mcq",
+        "question": "What is the primary benefit of containerizing a Node.js application?",
+        "options": [
+            "It ensures consistent execution environments across different machines.",
+            "It makes the code run 100x faster.",
+            "It prevents the need for writing tests.",
+            "It allows the application to run without a CPU."
+        ],
+        "correct_option": 0,
+        "explanation": "Containers provide environmental consistency."
+    },
+    {
+        "id": "Node.js_mcq_19",
+        "skill": "Node.js",
+        "difficulty": "Easy",
+        "question_type": "mcq",
+        "question": "In the context of scalability, how does Node.js perform under high load?",
+        "options": [
+            "It can be horizontally scaled via load balancers.",
+            "It crashes after 10 concurrent users.",
+            "It requires a quantum computer.",
+            "It physically overheats the server rack."
+        ],
+        "correct_option": 0,
+        "explanation": "Horizontal scaling distributes high loads effectively."
+    },
+    {
+        "id": "Node.js_coding_0",
+        "skill": "Node.js",
+        "difficulty": "Hard",
+        "question_type": "coding",
+        "question": "Implement a modular function using Node.js that processes data streams efficiently.",
+        "default_code": "// Implement Node.js streaming logic\nfunction process() {\n\n}"
+    },
+    {
+        "id": "Node.js_coding_1",
+        "skill": "Node.js",
+        "difficulty": "Hard",
+        "question_type": "coding",
+        "question": "Write a highly optimized sorting algorithm in Node.js.",
+        "default_code": "// Implement Node.js sorting\nfunction sort() {\n\n}"
+    },
+    {
+        "id": "Node.js_coding_2",
+        "skill": "Node.js",
+        "difficulty": "Hard",
+        "question_type": "coding",
+        "question": "Design an authentication middleware component using Node.js.",
+        "default_code": "// Node.js middleware\nfunction auth() {\n\n}"
+    },
+    {
+        "id": "Node.js_coding_3",
+        "skill": "Node.js",
+        "difficulty": "Hard",
+        "question_type": "coding",
+        "question": "Build a scalable data aggregation pipeline utilizing Node.js.",
+        "default_code": "// Node.js aggregation pipeline\nfunction aggregate() {\n\n}"
+    },
+    {
+        "id": "Node.js_coding_4",
+        "skill": "Node.js",
+        "difficulty": "Hard",
+        "question_type": "coding",
+        "question": "Create a fault-tolerant network request handler in Node.js.",
+        "default_code": "// Node.js network handler\nfunction request() {\n\n}"
+    },
+    {
+        "id": "Node.js_debugging_0",
+        "skill": "Node.js",
+        "difficulty": "Hard",
+        "question_type": "debugging",
+        "question": "Identify and fix the memory leak in this Node.js class. The event listener is never removed when the component unmounts.",
+        "default_code": "// BUG: Event listener causes a massive memory leak over time in Node.js\n\nclass DataHandler {\n  constructor() {\n    this.buffer = [];\n    this.listener = (e) => this.buffer.push(e.data);\n    window.addEventListener('message', this.listener);\n  }\n\n  // FIX ME: Add a teardown method to properly clean up the listener\n  teardown() {\n    // Write your fix here\n    \n  }\n}"
+    },
+    {
+        "id": "Node.js_debugging_1",
+        "skill": "Node.js",
+        "difficulty": "Hard",
+        "question_type": "debugging",
+        "question": "Resolve the race condition occurring in this asynchronous Node.js process. The UI updates out of order if requests finish at different times.",
+        "default_code": "// BUG: Race condition in Node.js async fetching\n\nlet currentRequestId = 0;\n\nasync function loadUserData(userId) {\n  currentRequestId++;\n  \n  // Network request takes random amount of time\n  const response = await fetchAPI(userId);\n  \n  // FIX ME: Ensure we only update UI if this response matches the most recently requested ID!\n  // Currently, it blindly updates, causing older requests to overwrite newer ones if they are slow.\n  updateUI(response.data);\n}"
+    },
+    {
+        "id": "Node.js_debugging_2",
+        "skill": "Node.js",
+        "difficulty": "Hard",
+        "question_type": "debugging",
+        "question": "Fix the improper error handling in this Node.js implementation. Critical exceptions are being swallowed silently.",
+        "default_code": "// BUG: Swallowed exceptions in Node.js\n\nasync function processTransaction(tx) {\n  try {\n    await db.save(tx);\n    await paymentGateway.charge(tx);\n  } catch (error) {\n    // FIX ME: This catch block completely hides the error!\n    // 1. Log the error to the monitoring service\n    // 2. Re-throw the error so the caller knows the transaction failed\n    console.log('Something went wrong');\n  }\n}"
+    }
+]
