@@ -69,3 +69,4 @@ Access the application at `http://localhost`.
 This project was built with strict MVP constraints:
 - **No External LLMs / Paid APIs:** All intelligence is handled by local algorithms, Pandas matching, and lightweight execution sandboxes.
 - **Local Data Only:** The job market relies entirely on a localized CSV dataset for reliable offline demonstrations.
+# skillproof-ai
